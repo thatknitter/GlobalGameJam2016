@@ -6,5 +6,5 @@ import {Component} from 'angular2/core';
     styleUrls: ['app/components/style.css']
 })
 export default class Scene {
-    
+
 }
