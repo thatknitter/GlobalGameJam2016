@@ -1,0 +1,71 @@
+body{
+	padding:0;
+	margin:0;
+}
+
+#Game{
+	width:80vw;
+	height:60vw;
+	margin-left:10vw;
+	
+	border:solid 1px #ccc;
+}
+
+	#Scene{
+		width:100%;
+		height:40vw;
+		
+		background:#333;
+	}
+		#Scene img{
+			width:100%;
+		}
+
+	#Prompt{
+		width:100%;
+		height:10vw;
+		font-family:monospace;
+		font-size:2vw;
+		position:relative;
+	
+		overflow:hidden;
+	}
+		#Prompt pre{
+			padding:0;
+				padding-left:2vw;
+				padding-right:2vw;
+				padding-bottom:0;
+			margin:0;
+			line-height:1em;
+			position:absolute;
+			bottom:0;
+		}
+
+	#Options{
+		width:100%;
+		height:10vw;
+	}
+		#Options input{
+			width:15%;
+			height:100%;
+			font-family:sans-serif;
+			background:#cc8888;
+			border:solid 1px #dd3333;
+		}
+		#Options input:hover{
+			background:#ddaaaa;
+			border:solid 1px #dd3333;
+		}
+		
+	.popup{
+		width:80vw;
+		height:20vw;
+		margin-top:-20vw;
+		
+		background:#cc8888;
+		border:solid 1px #ddaaaa;
+		border-radius:1em;
+		
+		position:absolute;
+	}
+		.inactive-popup{display:none;}
