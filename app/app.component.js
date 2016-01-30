@@ -2,7 +2,7 @@
     app.AppComponent =
         ng.core.Component({
                 selector: 'main-window',
-                templateUrl: 'scene.html'
+                templateUrl: 'components/scene.html'
             })
             .Class({
                 constructor: function() {}
