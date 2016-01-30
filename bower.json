@@ -1,0 +1,11 @@
+{
+  "name": "GlobalGameJam2016",
+  "homepage": "https://github.com/thatknitter/GlobalGameJam2016",
+  "authors": [
+    "Kimberly Lewis <kblewis.flt@gmail.com>"
+  ],
+  "description": "project for Global Game Jam 2016",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT"
+}
